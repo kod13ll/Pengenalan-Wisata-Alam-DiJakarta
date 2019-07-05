@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/home"
+                android:title="Home"/>
+
+    <item android:title='Objek Wisata'>
+        <menu>
+        <item
+            android:id="@+id/wisata_pantai"
+            android:icon="@drawable/sunset"
+            android:title="Wisata Pantai" />
+        <item
+            android:id="@+id/wisata_taman"
+            android:icon="@drawable/fountain1"
+            android:title="Wisata Taman" />
+
+        </menu>
+    </item>
+
+    <item android:title="Informasi">
+        <menu>
+            <item
+                android:id="@+id/peta_lokasi"
+                android:icon="@drawable/placeholder"
+                android:title="Peta Lokasi" />
+            <item
+                android:id="@+id/tentang_aplikasi"
+                android:icon="@drawable/info"
+                android:title="Tentang Aplikasi" />
+        </menu>
+    </item>
+
+</menu>

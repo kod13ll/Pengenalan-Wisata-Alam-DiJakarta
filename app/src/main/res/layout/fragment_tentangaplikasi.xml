@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tentangaplikasi">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:foregroundGravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_below="@id/imageView3"
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Wisata Alam Jakarta"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="23dp"
+        android:textSize="18dp"
+        android:text="Aplikasi ini dibuat untuk mengenalkan pada masyarakat luas bahwa dikota jakarta yang terkenal padat penduduk , macet dan banyak polusi ini masih ada tempat wisata yang indah yang bisa dikunjungi disaat kita ingin liburan. " />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/pembuat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="20dp">
+
+    </android.support.v7.widget.CardView>
+
+       <Button
+           android:id="@+id/button1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/textView10"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="28dp"
+           android:background="#FFF"
+           android:backgroundTint="@color/colorPrimaryDark"
+           android:gravity="center"
+           android:padding="4dp"
+           android:text="Tentang Pembuat" />
+   </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

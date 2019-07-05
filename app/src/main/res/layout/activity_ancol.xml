@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ancol"
+    android:background="#FFF"
+    android:id="@+id/ancolactivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.rahmatlailbayu.wisataalamjakarta._sliders.SliderView
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:id="@+id/pagesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrool1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/layout_top"
+        android:layout_marginTop="1dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Pantai Ancol" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text="Alamat      : \n\nJalan Lodan Timur No.7, RW.10, Ancol,Pademangan, Kota Jakarta Utara" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="8dp"
+        android:text="Jam Buka : 06.00 - 18.00" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="25dp"
+        android:paddingTop="1dp"
+        android:text="Deskripsi :"
+        android:textSize="18dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:lineSpacingExtra="2.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:text="Dataran yang menjorok ke laut Jawa di kawasan pesisir utara Jakarta ini terletak di kawasan wisata pantai Ancol Jakarta Utara.\n\nSuasana hening dengan deburan ombak laut kecil dengan pemandangan bangunan khas tradisi rumah adat dari Indonesia yang berjajar rapih dihiasi hijaunya nyiur melabai menjadi pemandangan indah yang dapat kita nikmati untuk melihat pesona keindahan pantai Ancol yang berada di Jakarta.
+Pantai Ancol ini cukup dikenal dikalangan masyarakat warga Jakarta, dimana lokasi ini sering dijadikan tempat untuk bersantai untuk menikmati pesona keindahan pantai sambil berlibur atau pun menginap bersama keluarga atau pun kerabat.\n\nLokasi kawasan Ancol ini terbuka untuk umum, dan siapa saja boleh menikmati keindahan alam pantainya di kawasan Ancol yang dikelola Pemerinatah Daerah Khusus Ibu Kota Jakarta ini.\n\nTidak jauh dari lokasi tersebut kita dapat melihat sebuah pemandangan saling berhadapan, bangunan asri dengan bangunan modern tinggi menjulang ke atas langit merupakan perpaduan yang memberikan kesan sebagai pemanis keindahan pinggir pantai utara Jakarta yang terlihat rapih dan asri menghasilkan pesona keindahan pantai Ancol yang dapat dinikmati masyarakat umum.
+Mengisi waktu libur bersama keluarga di lokasi pantai Ancol Jakrata, bisa menjadi salah satu pilihan destinasi wisata pantai yang cukup memanjakan diri dari kepenatan kesibukan aktivitas keseharian kita di luar rumah.\n\nRasa lelah, letih dan stres dapat hilang bila kita dapat melakukan sebuah terapi keluar rumah dengan menikmati Pesona Keindahan Pantai Ancol Jakarta"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ragunan"
+    android:background="#FFF"
+    android:id="@+id/ragunanactivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.rahmatlailbayu.wisataalamjakarta._sliders.SliderView
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:id="@+id/pagesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrool1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/layout_top"
+        android:layout_marginTop="1dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Taman Margasatwa Ragunan" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text="Alamat      : \n\nJl. Harsono No.1, Ragunan, Ps. Minggu,Kota Jakarta Selatan,Daerah Khusus Ibukota Jakarta" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="8dp"
+        android:text="Jam Buka : 07.30 - 16.00" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="25dp"
+        android:paddingTop="1dp"
+        android:text="Deskripsi :"
+        android:textSize="18dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:lineSpacingExtra="2.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:text="Kebun Binatang Ragunan merupakan kebun binatang pertama yang terdapat di Indonesia. \nPada awal didirikan di tahun 1864, kebun binatang ini terletak di kawasan Cikini, Jakarta Pusat dengan menggunakan lahan seluas 10 hektare namun pada tahun 1964, kebun binatang ini dipindahkan ke kawasan Ragunan, Jakarta selatan dan diresmikan menjadi Taman Margasatwa Ragunan pada 22 Juni 1966 menempati area seluas sekitar 140 hektar.\n\nKebun Binatang Ragunan ini sangat mudah dicapai dengan transportasi umum seperti angkutan kota, bus ataupun bus Transjakarta karena terletak tepat di sebelah Halte Busway Ragunan. \nJika anda membawa kendaraan pribadi juga tidak akan mengalami kesulitan untuk memarkir kendaraan anda karena lahan parkir tersedia cukup luas yang biasa digunakan sebagai lahan parkir pengguna bus Transjakarta di hari kerja. Di masa-masa liburan tertentu seperti liburan lebaran, natal, tahun baru atau libur panjang, pengunjung di kebun binatang ini sangat melimpah sehingga kadang kala arus transportasi diatur dan dibatasi untuk menghindari tumpukan kendaraan ataupun pengunjung yang hendak keluar ataupun masuk area kebun binatang ini.\n\nKebun Binatang Ragunan ini sangat luas, tidak hanya binatang yang terdapat di dalamnya namun juga banyak terdapat tumbuhan besar yang berada di kawasan ini. Hal ini menyebabkan suhu di kawasan ini terasa lebih sejuk dan menjadi filter atau saringan udara bagi kota Jakarta. Kondisi inilah yang menyebabkan banyak pengunjung, terutama keluarga, datang hanya untuk mencari udara segar yang semakin sulit di dapat di kota Jakarta tercinta ini. Tempat ini buka sejak jam 07.30 hingga 16.00. Tarif masuk untuk Kebun Binatang Ragunan ialah Rp. 5000 untuk dewasa dan Rp. 4000 untuk anak-anak ditambah biaya asuransi sebesar Rp 500/orang. Tarif yang cukup murah membuat pengunjung selalu membludak walaupun sekarang banyak bermunculan tempat wisata baru di Jakarta.\n\nDengan luasnya kawasan ini, cara terbaik untuk melihat sekeliling adalah dengan menaiki kereta wisata dengan biaya Rp. 6500/orang untuk usia 3 tahun keatas atau dengan menggunakan sepeda yang disewakan pengelola dengan biaya sebesar Rp 7500-15000/jam. \nJika anda ingin bersantai menikmati kawasan ini bersama keluarga atau rombongan, anda bebas menggelar tikar disetiap sudut kawasan ini. Anda dapat menghabiskan waktu di tempat ini tanpa terburu-buru karena Kebun Binatang ini menyediakan fasilitas mushola, toilet dan banyak terdapat rumah makan. Selain itu, kawasan ini sangat baik bagi anda yang ingin berolahraga jalan kaki, karena luasnya dan banyaknya pepohonan yang menaungi sehingga perjalanan anda akan terasa lebih santai dan sejuk.
+            \n\nKebun Binatang ini memiliki bermacam-macam spesies binatang seperti reptil, unggas, mamalia, primata dan lain sebagainya. Namun kondisi binatang sekarang ini terlihat cukup memprihatinkan seperti kandang yang kotor, tidak terawat, binatang yang kurus seperti kekurangan makan ataupun jumlah binatang yang tidak banyak lagi. Bahkan di beberapa area, banyak kandang yang dibiarkan kosong tanpa ada binatang di dalamnya. Untuk kandang yang ada binatang, jumlah binatang sudah menurun dibandingkan masa-masa lalu.
+Untuk lebih menarik pengunjung, Kebun Binatang Ragunan kini memiliki Pusat Primata Schmutzer yang merupakan pusat pelestarian primata terbesar di dunia. Untuk memasuki tempat ini, anda diharuskan membayar biaya tambahan sebesar Rp. 5000/orang, baik dewasa dan anak-anak. Tempat ini dibuka sejak pukul 09.00 hingga 16.00 setiap harinya. Di tempat ini terdapat berbagai macam primata seperti siamang, kera putih, orangutan, simpanse ataupun gorilla yang terawatt cukup baik. Pada akhir pekan atau hari libur nasional, Kebun Binatang Ragunan mengadakan berbagai macam atraksi binatang seperti menaiki gajah, tarian ular dengan biaya tambahan."/>
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

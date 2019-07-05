@@ -1,0 +1,4 @@
+#Thu Jan 31 10:42:41 ICT 2019
+base.0=D\:\\KKP\\Pengenalan Wisata Alam Jakarta\\Pengenalan Wisata Alam Jakarta\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex

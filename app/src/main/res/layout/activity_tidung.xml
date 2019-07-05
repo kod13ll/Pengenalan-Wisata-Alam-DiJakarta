@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tidung"
+    android:background="#FFF"
+    android:id="@+id/tidungactivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.rahmatlailbayu.wisataalamjakarta._sliders.SliderView
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:id="@+id/pagesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrool1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/layout_top"
+        android:layout_marginTop="1dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Pulau Tidung" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text="Jadwal Loket Pelabuhan Muara Angke " />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView7"
+        android:text="Loket Buka   : 06.30 " />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView6"
+        android:text="Loket Tutup : 07.30" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="25dp"
+        android:paddingTop="1dp"
+        android:text="Deskripsi :"
+        android:textSize="18dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:lineSpacingExtra="2.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:text="Pulau Tidung yang terdiri dari Tidung Besar dan Tidung Kecil yang dihubungkan oleh jembatan panjang yang dinamakan Jembatan Cinta oleh penduduk setempat ini terletak di KePulauan Seribu Selatan bagian barat, dengan jarak tempuh kurang lebih 3 jam perjalanan dari Muara Angke dengan kapal penumpang.\n\nPulau Tidung sebagai tujuan wisata menyediakan berbagai macam kegiatan wisata, dari bersepeda, menyelam, banana boat atau sekedar bersantai di pantai pasir putih. Pulau Tidung besar adalah Pulau yang berpenduduk, fasilitas seperti sekolah dan kantor polisi ada di pulau ini, sedangkan Pulau Tidung kecil adalah Pulau kosong tidak berpenghuni, pemanfaatan utamanya sebagai tempat pelestarian hutan mangrove.\n\nDi sisi Pulau Tidung Besar jembatan penghubung ini, ditemui jembatan yang cukup tinggi untuk melalui suatu cekungan laut yang agak dalam, dimana banyak anak kecil penduduk setempat memperagakan loncat indah dari jembatan sebagai sarana bermain mereka, cukup menghibur para wisatawan dan amat mengundang keinginan wisatawan untuk bisa bergabung dengan mereka melakukan loncat indah di pantai biru tanpa ombak.\n\nKeindahan alam Pulau Tidung, dan letaknya yang dekat dengan Jakarta, menjadikannya sebagai tempat tujuan wisata patut anda pertimbangkan, untuk melepaskan penat beraktivitas di Jakarta
+"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

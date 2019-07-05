@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menteng"
+    android:background="#FFF"
+    android:id="@+id/mentengactivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.rahmatlailbayu.wisataalamjakarta._sliders.SliderView
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:id="@+id/pagesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrool1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/layout_top"
+        android:layout_marginTop="1dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Taman Menteng" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text="Alamat     :\n\nJl. HOS. Cokroaminoto, RT.03 / RW.05 Menteng, Kota Jakarta Pusat,Daerah Khusus Ibukota Jakarta 10310" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="8dp"
+        android:text="Jam Buka : Buka 24 jam" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="25dp"
+        android:paddingTop="1dp"
+        android:text="Deskripsi :"
+        android:textSize="18dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:lineSpacingExtra="2.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:text="Taman menteng adalah taman yang terletak di daerah Menteng, Jakarta Pusat. \nTaman menteng awalnya merupakan studion menteng yang telah didirikin pada tahun 1921. Stadion Menteng dahulunya digunakan untuk keperluan Persatuan Sepak Bola Indonesia Jakarta (Persija). \nPengalihan fungsi Stadion Menteng menjadi Taman Menteng terjadi pada tahun 2004, ketika Gubernur DKI saat itu menjabat. Terdapat beberapa halangan pada saat pengalihan stadion ini, salah satunya adalah penghilangan resapan air kawasan tersebut, namun akhirnya Taman Menteng dapat diresmikan pada tanggal 28 April 2007 dengan kategori sebagai taman publik yang memiliki fasilitas olahraga, 44 sumur resapan dan lahan parkir.
+\n\nFasilitas yang ditawarkan oleh Taman Menteng yaitu adanya sarana bermain anak, jogging track, air mancur, serta koneksi internet dengan kecepatan yang bagus. \nTaman ini mempunyai lahan parkir yang lumayan besar, dengan lahan sebesar 4 tingkat yang mampu menampung kendaraan-kendaraan roda dua dan roda empat. \nSarana olahraga yang ditawarkan oleh taman ini pun sangat beragam, seperti 2 buah lapangan futsal dan 1 buah lapangan basket. \nPada malam hari biasanya taman ini pun ramai dikunjungi oleh masyarakat yang mempunyai hobi yang sedikit ekstrim, seperti skateboarding, sepeda BMX, dll.
+\nTaman Menteng berada di wilayah Menteng, Jakarta Pusat merupakan salah satu taman yang terdapat di wilayah Jakarta yang layak menjadi ruang terbuka hijau. \nAktivitas kota yang sibuk dan padat menuntut keberadaan sebuah ruang publik yang dapat digunakan untuk memberikan penyegaran bagi warga sekitar Taman Menteng. Namun, permasalahan yang akan diutamakan adalah Taman Menteng sebagai ruang terbuka hijau (RTH) bagi publik. \nTaman Menteng berfungsi secara sosial yakni sebagai fasilitas untuk umum dengan fungsi rekreasi, pendidikan dan olahraga, serta menjalin komunikasi antar warga kota.
+"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

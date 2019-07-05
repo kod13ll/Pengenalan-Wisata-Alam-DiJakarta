@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rahmatlailbayu.wisataalamjakarta">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".splashscreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".navigationdrawer"
+            android:label="Wisata Alam Jakarta"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".MapsActivity">
+      <meta-data
+          android:name="android.support.PARENT_ACTIVITY"
+          android:value=".navigationdrawer"/>
+        </activity>
+
+
+        <activity android:name=".tentangpembuat"
+            android:label="Tentang Pembuat"/>
+
+
+        <activity
+            android:name=".mangrove"
+            android:label="Taman Wisata Mangrove" />
+        <activity
+            android:name=".babakan"
+            android:label="Setu Babakan" />
+        <activity
+            android:name=".ragunan"
+            android:label="Taman Margastwa Ragunan" />
+        <activity
+            android:name=".ecopark"
+            android:label="Taman Allianz Ecopark" />
+        <activity
+            android:name=".tmii"
+            android:label="Taman Mini Indonesia Indah" />
+        <activity
+            android:name=".menteng"
+            android:label="Taman Menteng" />
+        <activity
+            android:name=".harapan"
+            android:label="Pulau Harapan" />
+        <activity
+            android:name=".ancol"
+            android:label="Pantai Ancol" />
+        <activity
+            android:name=".pari"
+            android:label="Pulau Pari" />
+        <activity
+            android:name=".tidung"
+            android:label="Pulau Tidung" />
+        <activity
+            android:name=".pramuka"
+            android:label="Pulau Pramuka" />
+        <activity
+            android:name=".sepa"
+            android:label="Pulau Sepa" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+    </application>
+
+</manifest>

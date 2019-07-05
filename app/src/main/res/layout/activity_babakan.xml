@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".babakan"
+    android:background="#FFF"
+    android:id="@+id/babakanactivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.rahmatlailbayu.wisataalamjakarta._sliders.SliderView
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:id="@+id/pagesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrool1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/layout_top"
+        android:layout_marginTop="1dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Setu Babakan" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text="Alamat      : \n\nJalan Mohammad Kahfi II,RT.10/RW.8,Srengseng Sawah,Jagakarsa,Kota Jakarta Selatan" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="8dp"
+        android:text="Jam Buka : Buka 24 jam" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="25dp"
+        android:paddingTop="1dp"
+        android:text="Deskripsi :"
+        android:textSize="18dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:lineSpacingExtra="2.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:text="Setu Babakan atau Danau Babakan terletak di Srengseng Sawah, kecamatan Jagakarsa, Kotamadya Jakarta Selatan, Indonesia dekat Depok yang berfungsi sebagai pusat Perkampungan Budaya Betawi, suatu area yang diperuntukkan untuk pelestarian warisan budaya Jakarta, yaitu budaya asli Betawi.\n\nPerkampungan budaya Betawi ini didirikan pada tanggal 18 Agustus 2000 melalui Surat Keputusan Gubernur DKI Nomor 92 tahun 2000 yang dikeluarkan oleh Gubernur DKI Jakarta pada waktu itu yaitu Sutiyoso
+Situ Babakan merupakan danau buatan dengan area 30 hektare (79 akre) dengan kedalaman 1-5 meter dimana airnya berasal dari Sungai Ciliwung dan saat ini digunakan sebagai tempat wisata alternatif, bagi warga dan para pengunjung.\n\nTaman disekitarnya ditanami dengan beragam pohon buah-buahan yaitu Mangga, Palem, Melinjo, Rambutan, Jambu, Pandan, Kecapi, Jamblang, Krendang, Guni, Nangka Cimpedak, Nam-nam, dan Jengkol.\n\nBanyak kuliner khas Betawi terdapat disini, antara lain Kerak Telor, Toge Goreng, Arum Manis, Rujak Bebek, Soto Betawi, Es Potong, Es Duren, Bir Pletok, Nasi Uduk, Nasi Ulam, Lontong Sayur, dll.\n\nWisata budaya yang disajikan antara laim rumah-rumah khas Betawi yang dibagi menjadi 3 macam, pertama rumah Betawi gudang atau kandang, kedua rumah Betawi Kebaya atau Bapang, dan yang ketiga adalah rumah Joglo, hampir serupa dengan rumah khas Yogyakarta.\nKeseniannya berupa Lenong, Tari Topeng, Tanjidor, Marawis, Gambang Kromong, Tari Lenggang Nyai, dan Tari Narojeng.\n\nUpacara Adat yang ada di perkampungan Betawi Setu Babakan adalah Penganten Sunat, Pindah Rumah, Khatam Qur'an, dan Nujuh Bulan.\nMayoritas penduduk di Setu Babakan adalah Betawi, dengan program dari pemda DKI untuk memperbaiki sarana dan prasarana yang ada untuk mengakomodasi kebutuhan ruang terbuka hijau, serta area untuk resapan air, setu babakan berbenah diri dengan dukungan penuh dari pemda DKI
+Fungsi dari Setu ini bukan hanya untuk tempat melestarikan kebudayaan betawi yang makin tergerus oleh zaman, tetapi digunakan juga sebagai tempat alternatif rekreasi yang berlokasi di selatan jakarta."/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+

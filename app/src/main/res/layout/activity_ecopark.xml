@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ecopark"
+    android:background="#FFF"
+    android:id="@+id/ecoparkactivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.rahmatlailbayu.wisataalamjakarta._sliders.SliderView
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:id="@+id/pagesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrool1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/layout_top"
+        android:layout_marginTop="1dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Taman Allianz Ecopark" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text="Alamat     : \n\nTaman Impian Jaya Ancol, Jl. Lodan Timur No.7,RW.10, Kota Tua, Ancol,Jakarta Utara" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="8dp"
+        android:text="Jam Buka : 06.00 - 18.00" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="25dp"
+        android:paddingTop="1dp"
+        android:text="Deskripsi :"
+        android:textSize="18dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:lineSpacingExtra="2.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:text="Terletak di kawasan wisata Ancol, Jakarta, Allianz Ecopark merupakan tempat berlibur dengan konsep alam terbuka hijau dengan luas lahan hampir 34 hektar.\n\n Wisata ini menawarkan nilai-nilai edukasi (edutainment) dan petualangan (adventure) dengan pendekatan green lifestyle, yang menjadi ruang terbuka untuk Anda dalam mengeksplorasi pengetahuan botani dan rekreasi luar ruang.
+Allianz Ecopark terbagi menjadi beberapa kawasan (zona) dengan fungsi dan fasilitas berbeda.\n\nAda empat tema zona yang diusung objek wisata ini, yaitu Eco Energy, Eco Care, Eco Nature, dan Eco Art. Di keseluruhan zona ini, telah ditanam beragam jenis tanaman pesisir, sekaligus menjadikan Ecopark sebagai sebuah kawasan yang hijau dan teduh, serta tempat pembelajaran botani lengkap yang menyenangkan.
+Selain menikmati ruang hijau, beberapa fasilitas atau wahana permainan juga disediakan di sini.\n\nDi antaranya Fun Boat Cruiser, yaitu sebuah perahu besar yang akan mengajak Anda berpetualang ke sebuah pulau kecil.\n Di pulau ini, nantinya Anda bisa berinteraksi langsung dengan memberi makan fauna seperti monyet, rusa, dan burung.
+Kemudian, ada Learning Farm, yaitu wahana edukasi bagaimana caranya menanam sayuran secara organik.\n\nAda juga Ecobike, kegiatan bersepeda dengan mengelilingi lintasan yang telah ditentukan.
+Untuk anak-anak, mereka juga bisa belajar bagaimana cara memberi makan ikan dan kelinci, mengunjungi rumah lebah, memanen telur bebek dan membuat telur asin, serta mempelajari cara merawat hewan ternak seperti kambing. Ada juga wahana Fantastique, dengan pertunjukan lampu-lampu yang luar biasa.
+"/>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
